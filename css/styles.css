@@ -187,3 +187,21 @@ ul {
 a:link {
     text-decoration: none;
 }
+
+.container {
+    max-width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right:0;
+}
+
+.nav-logo-container{
+display: inline;
+padding-left: 150px;
+padding-right: 54px;
+margin-right: 25px;
+margin-left: 832px;
+
+
+}
