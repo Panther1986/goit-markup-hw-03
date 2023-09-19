@@ -9,23 +9,48 @@ body {
     color: #434455;
 }
 section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     margin-left: 0%;
 }
 h1,
 h2,
 h3,
 p,
-ul {
-    margin-top: 0;
-    margin-bottom: 0;
+ul, 
+ol {
+    margin: 0;
+    padding:  0;
+    list-style: none;
 }
 
 img {
     display: block;
 }
 
+.container {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.nav-container-general{
+    display: flex;
+    height: 72px;
+    justify-content: space-around;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.general-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1158px;
+
+}
 
 .nav-logo {
     font-family: "Raleway", sans-serif;
@@ -35,26 +60,24 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    height: auto 21px;
+    height: 21px;
 }
 
 .logo-studio {
     color: #2e2f42;
-    height: auto 21px;
+    height: 21px;
 }
 
 .nav-container-logo{
-    height: fixed 24px;
-    margin-right: 76px;
+    padding-right: 76px;
+    padding-left: 156px;
 }
 
 .nav-container {
     display: flex;
     gap: 40px;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: 1440px;
     margin: 0 auto;
+    align-items: center;
 
 }
 .nav-link {
@@ -63,8 +86,9 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    width: auto 48px;
-    height: auto 24px;
+    width: 48px;
+    height: 24px;
+    padding: 24px 0 24px 0;
 }
 .nav-link:hover {
     color: #404bbf;
@@ -83,6 +107,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-right: 40px;
+   
 }
 
 .nav-address-mail:hover {
@@ -97,26 +123,21 @@ img {
     background-color: #2e2f42;
 }
 
+.first-element{
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
 .first-section-title {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-    height: 1440px;
-    
-    margin-right: auto;
-}
-
-.first-section-element {
+    margin: 0 auto;
     display: block;
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
-    padding: 0;
-    border: 0;
-    margin-left: auto;
-    text-align: center;
+    width: 496px;
+    margin-bottom: 48px;
 }
 
 .first-section-button {
@@ -128,17 +149,10 @@ img {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    width: auto 169px;
-    height: auto 56px;
-    padding-left: 32px;
-    padding-top: 16px;
-    padding-right: 32px;
-    padding-bottom: 16px;
-    margin-left: 636px;
-    margin-top: 356px;
-    margin-right: 635px;
-    margin-bottom: 188px;
-    height: 24px;
+    display: block;
+    width: 169px;
+    height: 56px;
+    margin: 0 auto;
 }
 
 .first-section-button:hover {
@@ -149,9 +163,33 @@ img {
     background-color: #404BBF;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .second-section-main{
     display: flex;
     gap: 24px;
+   
+    margin-left: 156px;
+    margin-top: 120px;
+    margin-right: 156px;
+    margin-bottom: 120px;
+
+}
+
+.second-section-item{
+    width: calc((100%-72) /4);
 }
 
 .second-section-title {
@@ -167,7 +205,9 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    height: 72px;
     padding-top: 8px;
+    text-align: left;
 }
 
 .third-section {
@@ -280,13 +320,5 @@ a:link {
     text-decoration: none;
 }
 
-.container {
-    max-width: 100%;
-        padding-left: 0;
-        padding-right: 0;
-        margin-left: 0;
-        margin-right:0;
-        width: 1158px;
-}
 
 
