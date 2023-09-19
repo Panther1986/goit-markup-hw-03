@@ -1,8 +1,32 @@
+*,
+* ::before
+* ::after {
+    box-sizing: border-box;
+}
 body {
     background: #FFF;
     font-family: Roboto, sans-serif;
     color: #434455;
 }
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-left: 0%;
+}
+h1,
+h2,
+h3,
+p,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+}
+
+
 .nav-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -11,14 +35,36 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    height: auto 21px;
 }
 
+.logo-studio {
+    color: #2e2f42;
+    height: auto 21px;
+}
+
+.nav-container-logo{
+    height: fixed 24px;
+    margin-right: 76px;
+}
+
+.nav-container {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 1440px;
+    margin: 0 auto;
+
+}
 .nav-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    width: auto 48px;
+    height: auto 24px;
 }
 .nav-link:hover {
     color: #404bbf;
@@ -57,6 +103,20 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    height: 1440px;
+    
+    margin-right: auto;
+}
+
+.first-section-element {
+    display: block;
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+    padding: 0;
+    border: 0;
+    margin-left: auto;
+    text-align: center;
 }
 
 .first-section-button {
@@ -68,6 +128,17 @@ body {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    width: auto 169px;
+    height: auto 56px;
+    padding-left: 32px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    margin-left: 636px;
+    margin-top: 356px;
+    margin-right: 635px;
+    margin-bottom: 188px;
+    height: 24px;
 }
 
 .first-section-button:hover {
@@ -76,6 +147,11 @@ body {
 
 .first-section-button:focus {
     background-color: #404BBF;
+}
+
+.second-section-main{
+    display: flex;
+    gap: 24px;
 }
 
 .second-section-title {
@@ -91,6 +167,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-top: 8px;
 }
 
 .third-section {
@@ -104,6 +181,12 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.third-section-main{
+    display: flex;
+    gap: 24px;
 }
 
 .third-section-photo {
@@ -116,6 +199,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 32px;
 }
 
 .third-section-profession {
@@ -123,6 +207,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-top: 8px;
+    padding-bottom: 32px;
 }
 
 .title-portfolio {
@@ -135,6 +221,12 @@ body {
         letter-spacing: 0.02em;
         text-transform: capitalize;
 }
+
+.title-portfolio-main{
+    display: flex;
+    gap: 24px;
+}
+
 .description-portfolio {
 color: #2E2F42;
     font-size: 20px;
@@ -142,6 +234,8 @@ color: #2E2F42;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 8px;
 }
 .description-portfolio-text {
     color: #434455;
@@ -150,6 +244,7 @@ color: #2E2F42;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        padding-bottom: 32px;
 }
 
 .footer-info {
@@ -166,9 +261,6 @@ color: #2E2F42;
     color: #4d5ae5;
 }
 
-.logo-studio {
-    color: #2e2f42;
-}
 
 .logo-studio-lower {
     color: #f4f4fd;
@@ -194,14 +286,7 @@ a:link {
         padding-right: 0;
         margin-left: 0;
         margin-right:0;
+        width: 1158px;
 }
 
-.nav-logo-container{
-display: inline;
-padding-left: 150px;
-padding-right: 54px;
-margin-right: 25px;
-margin-left: 832px;
 
-
-}
