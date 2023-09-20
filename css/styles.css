@@ -225,12 +225,14 @@ img {
 }
 
 .third-section-main{
-    display: flex;
+display: flex;
     gap: 24px;
 }
+    
 
 .third-section-photo {
     background-color: #FFFFFF;
+    width: calc((100%-72) /4);
 }
 
 .third-section-name {
@@ -240,6 +242,7 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding-top: 32px;
+    text-align: center;
 }
 
 .third-section-profession {
@@ -249,6 +252,7 @@ img {
     color: #434455;
     padding-top: 8px;
     padding-bottom: 32px;
+    text-align: center;
 }
 
 .title-portfolio {
@@ -265,6 +269,7 @@ img {
 .title-portfolio-main{
     display: flex;
     gap: 24px;
+    ;
 }
 
 .description-portfolio {
