@@ -38,7 +38,8 @@ a:link {
 
 .container {
     width: 1440px;
-  
+  padding-top: 15px;
+  padding-bottom: 15px;
     margin: 0 auto;
 }
 
@@ -263,10 +264,7 @@ display: flex;
     text-align: center;
 }
 
-.portfolio-item{
-    padding-left: 0;
-    padding-right: 0;
-}
+
 
 .title-portfolio {
     color: #2E2F42;
