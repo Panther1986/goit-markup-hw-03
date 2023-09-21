@@ -37,7 +37,7 @@ a:link {
 }
 
 .container {
-    width: 1440px;
+    width: 1158px;
   padding-top: 15px;
   padding-bottom: 15px;
     margin: 0 auto;
@@ -56,7 +56,6 @@ a:link {
 .general-container{
     display: flex;
     justify-content: space-between;
-    width: 1140px;
 }
 
 .nav-logo {
@@ -188,6 +187,7 @@ a:link {
 .second-section-main{
     display: flex;
     gap: 24px;
+    width: 1128px;
    
     margin-left: 156px;
     margin-top: 120px;
@@ -281,6 +281,7 @@ display: flex;
     display: flex;
     gap: 24px;
     width: calc((100% - 120px) / 6);
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
@@ -322,9 +323,9 @@ color: #2E2F42;
 }
 
 .footer-main{
-    display: block;
+    display: inline;
     padding-top: 101px;
-    padding-left: 156px;
+    margin-left: 156px;
 }
 
 
