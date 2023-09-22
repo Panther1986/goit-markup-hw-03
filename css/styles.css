@@ -48,14 +48,10 @@ a:link {
 
 .nav-container-general{
     display: flex;
-    height: 72px;
-    align-items: center;
-    justify-content: space-around;
     padding-top: 24px;
     padding-bottom: 24px;
-    justify-content: flex-start;
-    flex-direction: row;
     gap: 40px;
+    
 }
 
 .general-container{
@@ -81,7 +77,6 @@ a:link {
 
 .nav-container-logo{
     margin-right: 76px;
-    padding-left: 156px;
 }
 
 .nav-container {
@@ -117,6 +112,7 @@ a:link {
 
 .nav-address {
     font-style: normal;
+    margin-left: auto;
 }
 
 .nav-address-mail {
@@ -141,11 +137,6 @@ a:link {
 .first-section {
     background-color: #2e2f42;
     padding: 188px 0;
-}
-
-.first-element{
-    padding-top: 188px;
-    padding-bottom: 188px;
 }
 
 .first-section-title {
@@ -205,12 +196,6 @@ a:link {
 .second-section-main{
     display: flex;
     gap: 24px;
-    width: 1128px;
-   
-    margin-left: 156px;
-    margin-top: 120px;
-    margin-right: 156px;
-    margin-bottom: 120px;
 }
 
 .second-section-item{
@@ -231,9 +216,6 @@ a:link {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    height: 72px;
-    padding-top: 8px;
-    text-align: left;
 }
 
 .third-section {
@@ -249,7 +231,7 @@ a:link {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
-    padding-top: 120px;
+
 }
 
 .third-section-main{
@@ -262,7 +244,6 @@ display: flex;
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-    margin-bottom: 120px;
 
 }
 
@@ -285,8 +266,6 @@ padding: 32px 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-top: 8px;
-    padding-bottom: 32px;
     text-align: center;
 }
 
@@ -326,9 +305,7 @@ border: 1px solid #e7e9fc;
 border-top: none;
 }
 
-.portfolio-list:first-child{
-    margin-bottom: 48px;
-}
+
 .description-portfolio {
 color: #2E2F42;
     font-size: 20px;
@@ -346,8 +323,6 @@ color: #2E2F42;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        padding-bottom: 32px;
-        padding-left: 16px;
 }
 
 .footer-info {
